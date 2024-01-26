@@ -1,0 +1,123 @@
+/* Declare and Assign variables */
+:root {
+  --white:#F5F5F5;
+  --orange:#FF4500;
+  --gray: #2F4F4F;
+  --size2: 2px;
+  --size20: 20px;
+  }
+
+/* Set box size */
+* { box-sizing: border-box;}
+
+html * {font-family: Cavolini, Arial, Helvetica;} 
+
+a:hover, a:active {
+	text-decoration: none;
+}
+header {
+  background-color: var(--white);
+  color: var(--orange);}
+  
+#main {background-color: var(--gray);}
+
+body {
+  background-color: var(--gray); 
+  color: var(--gray);}
+
+#idcard {
+  background-color: var(--white);}
+
+.txtcol {color: var(--orange);}
+  
+#idpic {
+  color: var(--orange);}
+
+#conbtn {
+  color: var(--gray);
+  text-decoration-line: underline;
+  } 
+ 
+#conbtn:hover {
+ /* color: var(--gray);*/
+  text-decoration-line: none;
+  } 
+ 
+#navibar {
+  background-color: var(--white);
+  color: var(--gray);
+  padding: var(--size20);}
+
+a.navlinks:link, a.navlinks:visited {
+  color: var(--gray); 
+  /*text-decoration: none;*/}
+
+a.navlinks:hover, a.navlinks:active {
+  color: var(--orange);
+ /* text-decoration: none;*/}
+
+
+.sectiondivs {
+  color: var(--gray);	
+  background-color: var(--white);
+  padding: var(--size20);}
+ 
+.sitetable {
+  background-color: var(--gray);
+  color: var(--white);
+  padding: var(--size20);
+  width: 50%;
+  list-style-type: circle;}
+
+a.codereclinks:link, a.codereclinks:visited {
+  color: var(--white); 
+ /* text-decoration: none;*/}
+
+a.codereclinks:hover, a.codereclinks:active {
+  color: var(--orange);
+ /* text-decoration: none;*/}
+  
+#eschead {
+  max-width: 100%;
+  background-color: var(--white);
+  color: var(--orange);
+  padding: var(--size20);}
+
+#escapades {
+  background-color: var(--white);
+  color: var(--gray);
+  padding: var(--size20);}	
+  
+li.esclinks {text-decoration: underline;}  
+
+li.esclinks:hover {
+  color: var(--orange);
+  text-decoration: none;}
+
+/*	
+li.esclinks:link, li.esclinks:visited {
+  color: var(--white); 
+  text-decoration: underline;}
+
+li.esclinks:hover, li.esclinks:active {
+  color: var(--orange);
+  text-decoration: none;}
+ */ 
+ 
+footer {
+  color: var(--white);
+  background-color: var(--white);}
+
+.footdivs {
+  height:50px;
+  background-color: var(--gray);}
+  
+
+
+
+
+
+
+
+
+

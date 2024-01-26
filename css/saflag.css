@@ -1,0 +1,44 @@
+:root {
+  --orange:#FF4500;
+  --gray: #2F4F4F;
+  --white:#F5F5F5;
+  --size25: 25px;
+  --size2: 2px;}
+
+* { box-sizing: border-box;}
+
+html * {font-family: Cavolini, Arial, Helvetica;} 
+
+h1 {color: var(--orange);}
+
+header {
+  display: flex;
+  color: var(--orange);
+  justify-content: center;
+  align-items: center;}
+  
+#canvasdiv {
+  margin: 0px auto;
+  width: 550px;
+  height: 350px;
+  background-color: var(--white);}
+
+#flagCanvas {
+  border: var(--size2) solid var(--gray);
+  margin: var(--size25) auto;}
+
+body {
+  background-color: var(--gray); 
+  color: var(--white);}
+
+#specs {
+  display: flex;	
+  flex-direction: column;
+  align-items: center;}
+
+
+
+
+
+
+
