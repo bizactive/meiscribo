@@ -27,7 +27,7 @@ header {
 
 body {
   background-color: var(--gray); 
-  color: var(--gray);}
+ /* color: var(--gray);*/}
 
 #idcard {
   background-color: var(--white);
@@ -82,6 +82,12 @@ color: var(--white);}
 a.codereclinks:hover, a.codereclinks:active {
   color: var(--orange);}
   
+
+
+.portdivs {
+  display: flex;
+}
+  
 #eschead {
   max-width: 100%;
   background-color: var(--white);
@@ -101,11 +107,14 @@ li.esclinks:hover {
 
 footer {
   color: var(--white);
-  background-color: var(--white);}
+/*  background-color: var(--white);*/
+  overflow: hidden;} /* clear the white edge */
 
 .footdivs {
   height:50px;
   background-color: var(--gray);}
+  
+
   
 
 
