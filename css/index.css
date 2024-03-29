@@ -11,39 +11,34 @@
 html * {font-family: Cavolini, Arial, Helvetica;} 
 
 a:hover, a:active {
-	text-decoration: none;
-}
+  text-decoration: none;}
+  
 header {
   background-color: var(--white);
-  color: var(--orange);
   height: 375px;
-  display: flex;}
+  display: flex; 
+  color: var(--gray);
+  padding: 5px;}
  
 #headimg {
   width: 100%; 
-  max-height: 100%;}
+  height: 100%;}
   
 #main {background-color: var(--gray);}
 
 body {
-  background-color: var(--gray); 
- /* color: var(--gray);*/}
+  background-color: var(--gray);}
+
+.txtcol {color: var(--orange);}
+.txtWCol {color: var(--white);}
+.txtGCol {color: var(--gray);}
 
 #idcard {
   background-color: var(--white);
-  margin: var(--size20);}
-
-.txtcol {color: var(--orange);}
-  
-#iddiv {
-  color: var(--orange);
-  width: 100%; 
-  max-height: 100%;}
+  color: var(--orange);}
   
 #idpic {
-  max-width: 35%; 
-  max-height: 15%;
-  border: none;}
+  border: 1px solid var(--gray);}
 
 #conbtn {
   color: var(--gray);
@@ -63,6 +58,18 @@ a.navlinks:link, a.navlinks:visited {
 a.navlinks:hover, a.navlinks:active {
   color: var(--orange);}
 
+.nav-imgs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  background-color: var(--white);}
+
+.nav-img {margin: 1em;}
+
+.gif {
+float: right;	
+max-width: 20%;
+}
 
 .sectiondivs {
   color: var(--gray);	
@@ -82,11 +89,8 @@ color: var(--white);}
 a.codereclinks:hover, a.codereclinks:active {
   color: var(--orange);}
   
-
-
 .portdivs {
-  display: flex;
-}
+  display: flex;}
   
 #eschead {
   max-width: 100%;
@@ -107,7 +111,6 @@ li.esclinks:hover {
 
 footer {
   color: var(--white);
-/*  background-color: var(--white);*/
   overflow: hidden;} /* clear the white edge */
 
 .footdivs {
