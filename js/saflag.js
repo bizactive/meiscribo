@@ -9,11 +9,11 @@ ctx.moveTo(60,0);
   ctx.lineTo(500,100);
   ctx.lineTo(250,100);
   ctx.lineTo(60,0);
-   ctx.strokeStyle = "red";
+  ctx.strokeStyle = "red";
    ctx.fillStyle = "red";
    ctx.fill();
-     ctx.stroke();} 
-redBlock();
+   ctx.stroke();} 
+setTimeout(redBlock, 1000);
 
 const navyBlock = () => {
 ctx.beginPath(); 
@@ -26,8 +26,8 @@ ctx.moveTo(60,300);
    ctx.strokeStyle = "navy";
    ctx.fillStyle = "navy";
    ctx.fill();
-     ctx.stroke();} 
-navyBlock();
+   ctx.stroke();} 
+setTimeout(navyBlock, 2000);
 
 const greenRect = () => {
 ctx.beginPath(); 
@@ -35,8 +35,8 @@ ctx.beginPath();
    ctx.strokeStyle = "green";
    ctx.fillStyle = "green";
    ctx.fill();
-     ctx.stroke();} 
-greenRect();
+   ctx.stroke();} 
+setTimeout(greenRect, 3000);
 
 const greenSlant1 = () => {
 ctx.beginPath(); 
@@ -50,7 +50,7 @@ ctx.moveTo(0,0);
    ctx.fillStyle = "green";
    ctx.fill();
      ctx.stroke();} 
-greenSlant1();
+setTimeout(greenSlant1, 4000);
 
 const greenSlant2 = () => {
 ctx.beginPath(); 
@@ -64,7 +64,7 @@ ctx.moveTo(0,300);
    ctx.fillStyle = "green";
    ctx.fill();
      ctx.stroke();} 
-greenSlant2();
+setTimeout(greenSlant2, 5000);
 
 const goldTri1 = () => {
 ctx.beginPath(); 
@@ -76,7 +76,7 @@ ctx.moveTo(200,150);
    ctx.fillStyle = "gold";
    ctx.fill();
      ctx.stroke();} 
-goldTri1();
+setTimeout(goldTri1, 6000);
 
 const goldTri2 = () => {
 ctx.beginPath(); 
@@ -88,7 +88,7 @@ ctx.moveTo(200,150);
    ctx.fillStyle = "gold";
    ctx.fill();
      ctx.stroke();} 
-goldTri2();
+setTimeout(goldTri2, 7000);
 
 const blackTri1 = () => {
 ctx.beginPath(); 
@@ -100,7 +100,7 @@ ctx.moveTo(175,150);
    ctx.fillStyle = "black";
    ctx.fill();
      ctx.stroke();} 
-blackTri1();
+setTimeout(blackTri1, 8000);
 
 const blackTri2 = () => {
 ctx.beginPath(); 
@@ -112,4 +112,4 @@ ctx.moveTo(175,150);
    ctx.fillStyle = "black";
    ctx.fill();
      ctx.stroke();} 
-blackTri2();
+setTimeout(blackTri2, 9000);

@@ -13,7 +13,6 @@ h1 {color: var(--orange);}
 
 header {
   display: flex;
-  color: var(--orange);
   justify-content: center;
   align-items: center;}
   
@@ -30,10 +29,18 @@ header {
 body {
   background-color: var(--gray); 
   color: var(--white);}
+  
+#trn {
+  text-align: center;
+  background-image: linear-gradient(red, red, gold, blue, blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
+}
 
 #specs {
-  display: flex;	
-  flex-direction: column;
+  display: flex;
+  justify-content: space-between;  
   align-items: center;}
 
 
