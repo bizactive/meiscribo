@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <title>My Rothko Painting</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Rothko painting, HTML SVG, CSS, JavaScript | Richard Naidoo"> 
+  <meta name="description" content="See how the South African flag is drawn using HTML Canvas, CSS and JavaScript.">
+  <link rel="icon" type="image/x-icon" href="icons/rothko.jpg"> <!-- using screenshot once done-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/rothko.css"> 
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DC3FD8LPLM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DC3FD8LPLM');
+</script>
+
+<body>
+<header>
+<h1>A Rothko using SVG</h1>
+</header>
+
+<main>
+<div id="trn" class="w3-col l6">
+<p>I came across <a class="w3-hover-text-deep-orange" href="https://en.wikipedia.org/wiki/Mark_Rothko" target="_blank">Mark Rothko</a> again in one of the lessons of this coding journey. I have seen look-alikes and copies in offices and homes before but never gave it much consideration as it just so abstract! 
+<br>
+<br>
+In this thought experiment, I considered what principles of nonrepresentational art could be applied to my life and the path I have been on.
+<br>
+<br>
+Its easy enough to have the rectangles drawn, shade and give them an <i>"unrefined"</i> edge, but to come close to a brush stroke is a lot more tricky and I will revisit this when other options can be explored.  Just like Rothko, I am not going to name the work and discuss its meaning. If however, it triggers something for you, I would love to hear from you. DM me on <a class="w3-hover-text-deep-orange" href="https://www.linkedin.com/in/richard-naidoo-740080b5/" target="_blank">LinkedIn</a>.   
+</p>
+</div>
+
+<div id="canvasdiv" style="text-align: center">
+
+<svg id="canvas" width="600" height="650" xmlns="http://www.w3.org/2000/svg">
+<defs> 
+<filter id="f1" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="10" /> <!--higher deviation to more inward the effect -->
+</filter>
+</defs>
+
+<rect class="rect" width="550" height="100" x="25" y="20" rx="5" ry="5" fill="#bf8d22" /> 
+<rect width="565" height="120" x="20" y="115" rx="15" ry="17" fill="#d9cbad" filter="url(#f1)" /> <!-- skew rect-->
+<rect width="550" height="150" x="15" y="220" rx="20" ry="18" fill="#bbcbad" filter="url(#f1)" /> <!-- skew rect-->
+<rect width="570" height="140" x="10" y="370" rx="35" ry="30" fill="#89adad" filter="url(#f1)" /> <!-- skew rect-->
+<rect width="590" height="140" x="5" y="510" rx="40" ry="20" fill="#476e6e" filter="url(#f1)" /> <!-- skew rect-->
+
+</svg>
+
+</div>
+</main>
+<br>
+
+<div id="specs">
+<br>
+<img src="icons/html.ico" alt="HTML icon">
+<br>
+<img src="icons/css.ico" alt="CSS icon">
+<br>
+<img src="icons/js.ico" alt="JavaScript icon">
+<br>
+<br>
+<p>
+13 Lines of HTML
+</p>
+<br>
+<a href="index.html#projects" class="w3-button w3-hover-deep-orange"> ◄ Back to Portfolio</a>
+</div>
+
+</body>
+</html>
