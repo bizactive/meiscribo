@@ -6,19 +6,38 @@
   --size20: 20px;
   }
 
+
 * { box-sizing: border-box;}
-
 html * {font-family: Cavolini, Arial, Helvetica;} 
+a:hover, a:active {text-decoration: none;}
+.txtcol {color: var(--orange);}
+.txtWCol {color: var(--white);}
+.txtGCol {color: var(--gray);}
 
-a:hover, a:active {
-  text-decoration: none;}
+.boxShadow {
+box-shadow: 2.5px 2.5px 5px var(--orange);
+}
+
+/* 
+- showdow all around
+
+.bxShadowG {box-shadow: 2px 2px 5px var(--gray);} 
+.bxShadowO {box-shadow: 2px 2px 5px var(--orange);} 
+
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+https://www.w3schools.com/cssref/css3_pr_box-shadow.php
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+*/
   
 header {
   background-color: var(--white);
   height: 375px;
   display: flex; 
   color: var(--gray);
-  padding: 5px;}
+  padding: 5px 50px; /* check this */
+justify-content: space-between; /* check this */
+/* align-content: space-between; *//* check this */
+  }
  
 #headimg {
   width: 100%; 
@@ -29,13 +48,12 @@ header {
 body {
   background-color: var(--gray);}
 
-.txtcol {color: var(--orange);}
-.txtWCol {color: var(--white);}
-.txtGCol {color: var(--gray);}
+
 
 #idcard {
   background-color: var(--white);
-  color: var(--orange);}
+  color: var(--orange);
+  margin: 0 20px;}
   
 #idpic {
   border: 1px solid var(--gray);}
